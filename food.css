@@ -1,0 +1,294 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+b{
+    padding-right: 30px;
+    font-family:sans-serif;
+    font-weight: 200;
+}
+
+nav{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+    top: 0%;
+    font-size: xx-large;   
+}
+.container{
+    display: flex;
+    gap: 10px;
+    
+    margin: 3px;
+}
+.imgs{
+    height: 42vh;
+}
+h3{
+    text-align: center;
+    font-weight: 300;
+}
+.container p{
+    text-align: center;
+    font-weight: 0%;
+}
+
+.num{
+    
+    text-align: center;
+}
+#man{
+    display: block;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    width: 200px;
+    gap:50px;
+    color: black;
+    padding:10px;
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
+h4{
+    text-align: center;
+    font-weight: 300;
+    font-size: larger;
+}
+.last{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    font-size: larger;
+}
+h5{
+    font-weight: 100;
+    margin: 10px 0; 
+    font-size: larger;
+}
+h6{
+    font-size: x-large;
+    font-weight: 100;
+}
+li{
+    list-style-type: none;
+}
+.last1{
+    display: flex;
+    gap: 10px;
+}
+li:hover{
+    background-color:rgb(200, 193, 193);
+    width: 200px;
+}
+.para2{
+    line-height: 1.5;
+}
+.para2 span{
+    background-color: #616161;
+    color: white;
+    text-align: center;
+    box-sizing: inherit;
+}
+#travel{
+    background-color: black;
+}
+#para1{
+    font-size: medium;
+}
+.margin{
+    margin: 50px;
+}
+nav img{
+    cursor: pointer;
+}
+hr{
+    border: 0;
+    border-top: 1px solid #eeee;
+}
+.light{
+    font-size: medium;
+}
+
+
+@media screen and (min-width:0px) and (max-width:426px){
+    .margin{
+        margin: 50px;
+        width: 150%;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 3px;
+    }
+    body{
+        width: 95%;
+    }
+    .container{
+        width: 95%;
+    }
+    #man{
+        width: 80%;
+    }
+    .last{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: space-between;
+        font-size: larger;
+    }
+    .last h5{
+        font-weight: bold;
+    }
+}
+@media screen and (min-width:426px) and (max-width:768px){
+    .margin{
+        margin: 50px;
+        width: 170%;
+    }
+    .container{
+        display: flex;
+        gap: 10px;
+        margin: 3px;
+        width: 95%;
+    }
+    h3{
+        text-align: center;
+        font-weight: 300;
+    }
+    .container p{
+        text-align: center;
+        font-weight: 0%;
+        width: 95%;
+    }
+    
+    .num{
+        
+        text-align: center;
+    }
+    #man{
+        display: block;
+        margin: auto;
+        width: 80%;
+    }
+    a{
+        text-decoration: none;
+        width: 200px;
+        gap:50px;
+        color: black;
+        padding:10px;
+    }
+    a:hover{
+        background-color: black;
+        color: white;
+    }
+    h4{
+        text-align: center;
+        font-weight: 300;
+        font-size: larger;
+    }
+    .last{
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        font-size: larger;
+    }
+    h5{
+        font-weight: 100;
+        margin: 10px 0; 
+        font-size: larger;
+    }
+    h6{
+        font-size: x-large;
+        font-weight: 100;
+    }
+    li{
+        list-style-type: none;
+    }
+    .last1{
+        display: flex;
+        gap: 10px;
+    }
+    li:hover{
+        background-color:rgb(200, 193, 193);
+        width: 200px;
+    }
+    .para2{
+        line-height: 1.5;
+    }
+    .para2 span{
+        background-color: #616161;
+        color: white;
+        text-align: center;
+        box-sizing: inherit;
+    }
+    #travel{
+        background-color: black;
+    }
+    #para1{
+        font-size: medium;
+    }
+    .margin{
+        margin: 50px;
+    }
+    nav img{
+        cursor: pointer;
+    }
+    hr{
+        border: 0;
+        border-top: 1px solid #eeee;
+    }
+    .light{
+        font-size: medium;
+    }
+}
+@media scrren and (min-width:768px) and (min-width:1024px){
+    .margin{
+        margin: 50px;
+        width: 200%;
+    }
+    .container{
+        display: flex;
+        gap: 10px;
+        margin: 3px;
+        width: 100%;
+    }
+    h3{
+        text-align: center;
+        font-weight: 300;
+    }
+    .container p{
+        text-align: center;
+        font-weight: 0%;
+        width: 95%;
+    }
+    
+    .num{
+        
+        text-align: center;
+    }
+    #man{
+        display: block;
+        margin: auto;
+        width: 90%;
+        margin-right: 40px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:890px){
+    #man{
+        width: 80%;
+    }
+}
+@media screen and (min-width:0px) and (max-width:300px){
+    .last{
+        gap: 0px;
+        font-size: small;
+    }
+}
